@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
-// import chatify from "../../Assets/Projects/chatify.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import ZIGFOOD from "../../Assets/ZIGFOOD.webp";
+import METUBE from "../../Assets/Metube.png";
+import ClickFlix from "../../Assets/CLICKFLIX.webp";
+import ERLEADA from "../../Assets/Erleada.png";
+import CARVYKTI from "../../Assets/CARVYKTI.png";
+import CARVYKTI_HCP from "../../Assets/CARVYKTI_HCP.png";
 
 function Projects() {
   return (
@@ -23,66 +23,66 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={""}
+              imgPath={ ZIGFOOD}
               isBlog={false}
               title="ZIGFOOD"
               description=""
               ghLink="/"
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={METUBE}
+              isBlog={false}
+              title="METUBE"
+              description=""
+              ghLink="/"
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ClickFlix}
+              isBlog={false}
+              title="ClickFlix"
+              description=""
+              ghLink="/"
+                            
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ERLEADA}
+              isBlog={false}
+              title="ERLEADA"
+              description=""
               demoLink="/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={""}
+              imgPath={ CARVYKTI}
               isBlog={false}
-              title=""
+              title="CARVYKTI"
               description=""
-              ghLink="/"
               demoLink="/"
+
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={"'"}
+              imgPath={ CARVYKTI_HCP}
               isBlog={false}
-              title="Editor.io"
+              title="CARVYKTI HCP"
               description=""
-              ghLink="/"
-              demoLink="/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={""}
-              isBlog={false}
-              title="Plant AI"
-              description=""
-              ghLink="/"
               demoLink="/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={""}
-              isBlog={false}
-              title="Ai For Social Good"
-              description=""
-              ghLink="/"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={""}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description=""
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              
             />
           </Col>
         </Row>
