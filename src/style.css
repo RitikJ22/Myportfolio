@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #000;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -144,7 +144,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #000 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -265,9 +265,14 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 5rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
+  
+  @media(max-width:768px){
+    padding: 7rem 0 2rem !important;
+  }
+  
 }
 
 .heading {
@@ -308,11 +313,16 @@ button:focus {
 .myAvtar {
   justify-content: center !important;
   padding-top: 5em !important;
-
-  .radius{
-    border-radius: 50%;
-  }
+  aspect-ratio: 3/2 !important;
+  border-radius: 50%;
   
+}
+
+.avatar{
+  /* justify-content: center !important;
+  padding-top: 5em !important; */
+    border-radius: 50%;
+
 }
 
 @media (max-width: 767px) {
