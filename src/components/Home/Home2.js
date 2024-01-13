@@ -16,44 +16,47 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple">INTRODUCE</span> MYSELF
             </h1>
             <p className="home-about-body">
-            Elevating User Experiences through Intuitive Design: Crafting Seamless and Engaging Web Solutions.🤷‍♂️
+              Hey there! I'm passionate about crafting exceptional user
+              experiences through intuitive design, bringing forth seamless and
+              engaging web solutions. 🚀
               <br />
-              <br />I am fluent in classics like
+              <br />
+              In the realm of web development, I am well-versed in classics like
               <i>
-                <b className="purple"> Javascript , React.js and Next.js </b>
+                <b className="purple"> JavaScript, React.js, and Next.js</b>
               </i>
+              .
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My primary focus lies in building
               <i>
-                <b className="purple">Web Apps and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Full Stack Development
-                </b>
+                <b className="purple"> web apps and products</b>
               </i>
+              , with a keen interest in various aspects of
+              <i>
+                <b className="purple"> Full Stack Development</b>
+              </i>
+              .
               <br />
-              <br />
-              Whenever possible, I apply my passion for developing products
-              with <b className="purple">React.js</b> and
+              <br />I thrive on turning ideas into reality, leveraging the power
+              of
+              <b className="purple"> React.js</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern CSS Library and Frameworks
+                  modern CSS libraries and frameworks like Tailwind and MUI
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Tailwind and MUI</b>
-              </i>
+              .
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+
+          <Col md={4} className="myAvtar d-none d-md-block">
             <Tilt>
-              <img src={myImg} className="img-fluid radius " alt="avatar" />
+              <img src={myImg} className="img-fluid radius" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
