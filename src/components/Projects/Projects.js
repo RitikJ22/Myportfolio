@@ -7,8 +7,8 @@ import METUBE from "../../Assets/Metube.webp";
 import ClickFlix from "../../Assets/CLICKFLIX.webp";
 import ERLEADA from "../../Assets/Erleada.webp";
 import CARVYKTI from "../../Assets/CARVYKTI.webp";
-import CARVYKTI_HCP from "../../Assets/CARVYKTI_HCP.webp";
-import TALVEY_HCP from "../../Assets/TalveyHcp.webp";
+import TECVAYLI from "../../Assets/tecvyali.webp";
+import TALVEY from "../../Assets/TalveyHcp.webp";
 import TalkThatTalk from "../../Assets/talkthattalkpc.webp";
 
 function Projects() {
@@ -28,7 +28,7 @@ function Projects() {
               imgPath={METUBE}
               isBlog={false}
               title="METUBE"
-              description="METUBE is a  Video streaming platform build using React.js with Tailwind CSS framework with Live integration of YOUTUBE API."
+              description="METUBE is a  Video streaming platform build using React.js with Tailwind CSS framework with integration of Live YOUTUBE API."
               ghLink="https://github.com/RitikJ22/Ibizotest"
               demoLink="https://ibizotest.vercel.app/"
             />
@@ -39,7 +39,7 @@ function Projects() {
               imgPath={TalkThatTalk}
               isBlog={false}
               title="TALK-THAT-TALK"
-              description="Talk That Talk is a movement created for Black men to learn about prostate cancer. This App is built for this cause using Next.js with Typescript and SASS."
+              description="Talk That Talk is a movement created for men to learn about prostate cancer. This App is built for this cause using Next.js with Typescript and SASS."
               ghLink={false}
               demoLink="https://www.talkthattalkpc.com/"
             />
@@ -50,7 +50,7 @@ function Projects() {
               imgPath={ERLEADA}
               isBlog={false}
               title="ERLEADA"
-              description="Erleada is a web application for a product ERLEADA® apalutamide which is a prescription medicine used to treat  prostate cancer. This Application is built on Next.js with typescript and SASS with GSAP"
+              description="Erleada is a web application for a product ERLEADA® apalutamide which is a prescription medicine used to treat prostate cancer. This Application is built on Next.js with typescript in combination with SASS & GSAP"
               ghLink={false}
               demoLink="https://www.erleada.com/"
             />
@@ -58,12 +58,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={TALVEY_HCP}
+              imgPath={TALVEY}
               isBlog={false}
               title="TALVEY"
-              description="TALVEY HCP is a Web application for a product TALVEY Medicine. It's built using Next.js with Typescript and SASS. "
+              description="TALVEY is a Web application for a product TALVEY™ which is a prescription medicine to treat adults with multiple myeloma. It's built using Next.js with Typescript and SASS. "
               ghLink={false}
-              demoLink="https://www.talveyhcp.com/"
+              demoLink="https://www.talvey.com/"
             />
           </Col>
 
@@ -72,7 +72,7 @@ function Projects() {
               imgPath={CARVYKTI}
               isBlog={false}
               title="CARVYKTI"
-              description="CARVYKTI is a Web application for a product CARVYKTI ® (ciltacabtagene autoleucel) which is a treatment used for adult patients who have cancer of the bone marrow.It's build using Next.js with Sass"
+              description="CARVYKTI is a Web application for a product CARVYKTI ® (ciltacabtagene autoleucel) which is a treatment used for adult patients who have cancer of the bone marrow.It's build using Next.js with Typescript and Sass"
               ghLink={false}
               demoLink="https://www.carvykti.com/"
             />
@@ -80,12 +80,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={CARVYKTI_HCP}
+              imgPath={TECVAYLI}
               isBlog={false}
-              title="CARVYKTI-HCP"
-              description="CARVYKTI is a Web application for a product CAR-T therapy for the treatment of adult patients with relapsed or refractory multiple myeloma. It's build using Next.js with Sass ."
+              title="TECVAYLI"
+              description="TECVAYLI® is a prescription medicine to treat adults with multiple myeloma . This Application is build for this product using Next.js with Typescript and with Sass ."
               ghLink={false}
-              demoLink="https://www.carvyktihcp.com/"
+              demoLink="https://www.tecvayli.com/"
             />
           </Col>
 
