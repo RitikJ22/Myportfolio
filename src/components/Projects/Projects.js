@@ -28,7 +28,7 @@ function Projects() {
               imgPath={METUBE}
               isBlog={false}
               title="METUBE"
-              description="METUBE is a  Video streaming platform build using React.js with Tailwind CSS framework with integration of Live YOUTUBE API."
+              description="METUBE is a  Video streaming platform build using React.js and Tailwind CSS framework with integration of Live Google API to get latest videos hosted on Youtube and their interactions data as well."
               ghLink="https://github.com/RitikJ22/Ibizotest"
               demoLink="https://ibizotest.vercel.app/"
             />
@@ -37,10 +37,9 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TalkThatTalk}
-              isBlog={false}
+              isBlog={true}
               title="TALK-THAT-TALK"
-              description="Talk That Talk is a movement created for men to learn about prostate cancer. This App is built for this cause using Next.js with Typescript and SASS."
-              ghLink={false}
+              description="Talk That Talk is a movement created for men to learn about prostate cancer. This App is built for this cause using Next.js with Typescript and SCSS for styling UI."
               demoLink="https://www.talkthattalkpc.com/"
             />
           </Col>
@@ -48,10 +47,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ERLEADA}
-              isBlog={false}
+              isBlog={true}
               title="ERLEADA"
-              description="Erleada is a web application for a product ERLEADA® apalutamide which is a prescription medicine used to treat prostate cancer. This Application is built on Next.js with typescript in combination with SASS & GSAP"
-              ghLink={false}
+              description="Erleada is a web application for a product ERLEADA® apalutamide which is a prescription medicine used to treat prostate cancer. This Application is built on Next.js with typescript in combination with SCSS & GSAP for styling and animations."
+             
               demoLink="https://www.erleada.com/"
             />
           </Col>
@@ -59,10 +58,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TALVEY}
-              isBlog={false}
+              isBlog={true}
               title="TALVEY"
-              description="TALVEY is a Web application for a product TALVEY™ which is a prescription medicine to treat adults with multiple myeloma. It's built using Next.js with Typescript and SASS. "
-              ghLink={false}
+              description="TALVEY is a Web application for a product TALVEY™ which is a prescription medicine to treat adults with multiple myeloma. It's built using Next.js with Typescript and SCSS for styling UI. "
+             
               demoLink="https://www.talvey.com/"
             />
           </Col>
@@ -70,10 +69,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={CARVYKTI}
-              isBlog={false}
+              isBlog={true}
               title="CARVYKTI"
-              description="CARVYKTI is a Web application for a product CARVYKTI ® (ciltacabtagene autoleucel) which is a treatment used for adult patients who have cancer of the bone marrow.It's build using Next.js with Typescript and Sass"
-              ghLink={false}
+              description="CARVYKTI is a Web application for a product CARVYKTI ® (ciltacabtagene autoleucel) which is a treatment used for adult patients who have cancer of the bone marrow.It's build using Next.js with Typescript and SCSS for styling UI"
+              
               demoLink="https://www.carvykti.com/"
             />
           </Col>
@@ -81,10 +80,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TECVAYLI}
-              isBlog={false}
+              isBlog={true}
               title="TECVAYLI"
-              description="TECVAYLI® is a prescription medicine to treat adults with multiple myeloma . This Application is build for this product using Next.js with Typescript and with Sass ."
-              ghLink={false}
+              description="TECVAYLI® is a prescription medicine to treat adults with multiple myeloma . This Application is build for this product using Next.js and Typescript  with SCSS for styling UI."
+              
               demoLink="https://www.tecvayli.com/"
             />
           </Col>
@@ -94,7 +93,7 @@ function Projects() {
               imgPath={ZIGFOOD}
               isBlog={false}
               title="ZIGFOOD"
-              description="ZIGFOOD is a web application for ordering food. It's build using React.js with Tailwind CSS with the integration of Swiggy's Live public api."
+              description="ZIGFOOD is Food ordering web application. It's build using React.js and Tailwind CSS with the integration of Swiggy's Live public api to get live restaurant updates."
               ghLink="https://github.com/RitikJ22/NamasteReact"
             />
           </Col>
@@ -102,10 +101,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ClickFlix}
-              isBlog={false}
+              isBlog={true}
               title="ClickFlix"
               description="Working on a Netflix clone project  with intergation of CHATGPT API."
-              ghLink={false}
+              
             />
           </Col>
         </Row>
