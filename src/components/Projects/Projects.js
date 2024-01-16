@@ -40,7 +40,7 @@ function Projects() {
               isBlog={true}
               title="TALK-THAT-TALK"
               description="Talk That Talk is a movement created for men to learn about prostate cancer. This App is built for this cause using Next.js with Typescript and SCSS for styling UI."
-              demoLink="https://www.talkthattalkpc.com/"
+              ghLink="https://www.talkthattalkpc.com/"
             />
           </Col>
 
@@ -50,8 +50,7 @@ function Projects() {
               isBlog={true}
               title="ERLEADA"
               description="Erleada is a web application for a product ERLEADA® apalutamide which is a prescription medicine used to treat prostate cancer. This Application is built on Next.js with typescript in combination with SCSS & GSAP for styling and animations."
-             
-              demoLink="https://www.erleada.com/"
+              ghLink="https://www.erleada.com/"
             />
           </Col>
 
@@ -61,8 +60,7 @@ function Projects() {
               isBlog={true}
               title="TALVEY"
               description="TALVEY is a Web application for a product TALVEY™ which is a prescription medicine to treat adults with multiple myeloma. It's built using Next.js with Typescript and SCSS for styling UI. "
-             
-              demoLink="https://www.talvey.com/"
+              ghLink="https://www.talvey.com/"
             />
           </Col>
 
@@ -72,8 +70,7 @@ function Projects() {
               isBlog={true}
               title="CARVYKTI"
               description="CARVYKTI is a Web application for a product CARVYKTI ® (ciltacabtagene autoleucel) which is a treatment used for adult patients who have cancer of the bone marrow.It's build using Next.js with Typescript and SCSS for styling UI"
-              
-              demoLink="https://www.carvykti.com/"
+              ghLink="https://www.carvykti.com/"
             />
           </Col>
 
@@ -83,8 +80,7 @@ function Projects() {
               isBlog={true}
               title="TECVAYLI"
               description="TECVAYLI® is a prescription medicine to treat adults with multiple myeloma . This Application is build for this product using Next.js and Typescript  with SCSS for styling UI."
-              
-              demoLink="https://www.tecvayli.com/"
+              ghLink="https://www.tecvayli.com/"
             />
           </Col>
 
@@ -104,7 +100,6 @@ function Projects() {
               isBlog={true}
               title="ClickFlix"
               description="Working on a Netflix clone project  with intergation of CHATGPT API."
-              
             />
           </Col>
         </Row>
