@@ -36,6 +36,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={ZIGFOOD}
+              isBlog={false}
+              title="ZIGFOOD"
+              description="ZIGFOOD is Food ordering web application. It's build using React.js and Tailwind CSS with the integration of Swiggy's Live public api to get live restaurant updates."
+              ghLink="https://github.com/RitikJ22/Zigfood"
+              demoLink="https://zigfood-2ioc.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={TalkThatTalk}
               isBlog={true}
               title="TALK-THAT-TALK"
@@ -81,16 +92,6 @@ function Projects() {
               title="TECVAYLI"
               description="TECVAYLI® is a prescription medicine to treat adults with multiple myeloma . This Application is build for this product using Next.js and Typescript  with SCSS for styling UI."
               ghLink="https://www.tecvayli.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ZIGFOOD}
-              isBlog={false}
-              title="ZIGFOOD"
-              description="ZIGFOOD is Food ordering web application. It's build using React.js and Tailwind CSS with the integration of Swiggy's Live public api to get live restaurant updates."
-              ghLink="https://github.com/RitikJ22/NamasteReact"
             />
           </Col>
 
